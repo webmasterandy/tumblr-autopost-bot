@@ -20,11 +20,11 @@ To set up the bot, you need a server. The script has been tested under Ubuntu 20
 - Setup your Time (in sec) in which intervall the post shoud post.
 - In the code under "Tags" you can specify hashtags for your quotes. These are separated with a comma
 
-# run
+# Eun
 - run the code with `python3 run.py`
 The Bot schould print "Quote postet on Tumblr"
 
-# optional
+# Optional
 If you use Linux and want to run the Bot as background process you can use "Screen"
 - install screen with `apt-get install screen`
 - type `screen` in console
