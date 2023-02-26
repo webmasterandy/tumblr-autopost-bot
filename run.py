@@ -17,7 +17,7 @@ quote_api_endpoint = "https://api.quotable.io/random"
 # Define function to post quote on Tumblr
 def post_quote_on_tumblr(quote_text):
     response = client.create_text(
-        "justwatchmypussy",
+        "insert_your_blogname",
         body=quote_text,
         type='html',
         tags=["quotes, life, love, important, tumblr, instagood, love, aesthetic, girl, literature, sad quotes, sad poem, zitate"],
@@ -28,7 +28,7 @@ def post_quote_on_tumblr(quote_text):
     else:
         print("Error posting quote on Tumblr.")
 
-# Start the loop to get quote and post on Tumblr every hour
+# Start the loop to get quote and post on Tumblr
 while True:
     # Get a random quote from the Quote API
     response = requests.get(quote_api_endpoint)
@@ -40,4 +40,4 @@ while True:
         print("Error getting quote from Quote API.")
 
     # Wait for an hour before getting the next quote
-    time.sleep(10800)
+    time.sleep(10800) # curent(10800) set to 3 hours
