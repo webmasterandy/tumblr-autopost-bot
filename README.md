@@ -18,6 +18,7 @@ To set up the bot, you need a server. The script has been tested under Ubuntu 20
 - Insert Consumer Key, Consumer Secret, Acces Token and Access Secret in Script
 - Insert your Tumblr Blogname
 - Setup your Time (in sec) in which intervall the post shoud post.
+- In the code under "Tags" you can specify hashtags for your quotes. These are separated with a comma
 
 # run
 - run the code with `python3 run.py`
