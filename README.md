@@ -18,11 +18,11 @@ To set up the bot, you need a server. The script has been tested under Ubuntu 20
 - Insert Consumer_Key, Consumer_Secret, Access_Token and Access_Secret in Script
 - Insert your Tumblr Blogname
 - Setup your Time (in sec) in which intervall the post should post.
-- In the code under "Tags" you can specify hashtags for your quotes. These are separated with a comma
+- In code under "Tags" you can specify hashtags for your quotes. These are separated with a comma
 
 # Run
 - run the code with `python3 run.py`
-The Bot schould print "Quote postet on Tumblr"
+The Bot should print "Quote postet on Tumblr"
 
 # Optional
 If you use Linux and want to run the Bot as background process you can use "Screen"
