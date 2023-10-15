@@ -14,7 +14,7 @@ access_secret = "insert"
 client = TumblrRestClient(consumer_key, consumer_secret, access_token, access_secret)
 
 # Set up Meme API endpoint
-meme_api_endpoint = "https://api.behfus.de/v1/memes/?no-gif"
+meme_api_endpoint = "https://api.andyproject.de/v1/memes/?no-gif"
 
 # Define function to post meme on Tumblr
 def post_meme_on_tumblr(title, image_path):
