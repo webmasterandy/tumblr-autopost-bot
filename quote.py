@@ -12,13 +12,13 @@ access_secret = "your_access_token_secret"
 client = TumblrRestClient(consumer_key, consumer_secret, access_token, access_secret)
 
 # Set up Quote API endpoint
-quote_api_endpoint = "https://api.quotable.io/random"
+quote_api_endpoint = "https://api.andyproject.de/v1/quotes/en/"
 
 # Define function to post quote on Tumblr
 def post_quote_on_tumblr(quote_data):
     response = client.create_quote(
         "your_blog_name",
-        quote=quote_data["content"],
+        quote=quote_data["quote"],
         source=quote_data["author"],
         tags=[quote_data["author"], 'quotes', 'life', 'love', 'important', 'tumblr', 'instagood', 'love', 'aesthetic', 'girl', 'literature', 'sad quotes', 'sad poem', 'zitate'],
         state="published",
