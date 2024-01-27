@@ -39,7 +39,7 @@ If you use Linux and want to run the Bot as background process you can use "Scre
 You can always control the process by typing `screen -r`<br>
 
 # Auto start
-In the following steps, I will explain how to set up the bot so that it starts automatically when the server is started. This instruction is only vor Linux systems.
+In the following steps, I will explain how to set up the bot so that it starts automatically when the server is started. This instruction is only for Linux systems.
 
 - Download `tumblr-pic.sh`.
 - Put the file on your Server.
