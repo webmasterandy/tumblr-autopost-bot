@@ -1,13 +1,14 @@
 #!/bin/bash
 
-# Der vollständige Pfad zum 'screen'-Befehl
+# The complete path to the 'screen' command
 SCREEN="/usr/bin/screen"
 
-# Der vollständige Pfad zum 'python3'-Befehl
+# The complete path to the 'python3' command
 PYTHON="/usr/bin/python3"
 
-# Starte die zweite Screen-Session für daily.py im Hintergrund
-$SCREEN -dmS tumblr-bild-session
+# Start the second screen session for daily.py in the background
+$SCREEN -dmS tumblr-pic-session
 
-# Wechsle in der Screen-Session in das Verzeichnis und führe daily.py aus
-$SCREEN -S tumblr-bild-session -X stuff "cd /var/script/data/tumblr_bild && sleep 60 && $PYTHON main.py\n"
+# Change to the directory in the screen session and execute main.py
+# I wait 60 seconds here to relieve the system at startup.
+$SCREEN -S tumblr-pic-session -X stuff "cd /path/to/your/script && sleep 60 && $PYTHON main.py\n"
