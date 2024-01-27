@@ -121,6 +121,7 @@ while True:
 
     # Save image
     img = str(f"tumb_") + str(id1) + str(".jpeg")
+    # customize folder path
     image.save(f'/mnt/_onedrive_1704741445/public/tumblr_pic/{img}')
     
     # Set up Tumblr API credentials
@@ -153,6 +154,7 @@ while True:
         )
 
     # Call the function with the path to your image
+    # customize folder path
     post_image_on_tumblr(f'/mnt/_onedrive_1704741445/public/tumblr_pic/{img}')
     #Select a random number of seconds between 10000 and 12000. Can be customized.
     sekunden1 = random.randint(10000, 12000)
