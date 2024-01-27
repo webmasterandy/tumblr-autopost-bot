@@ -1,21 +1,17 @@
 import requests
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 from requests.auth import HTTPBasicAuth
-from webdav4.client import Client
 import os
 import random
 from pathlib import Path
 from instagrapi import Client
 from instagrapi.types import UserShort
 import time
-import smtplib, ssl
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 import json
 from pytumblr import TumblrRestClient
 from requests_oauthlib import OAuth1Session
 
-blogname = ""
+blogname = "HERE BLOG NAME"
 current_path = Path.cwd()
 print(current_path)
 
